@@ -1,0 +1,6 @@
+version: "3"
+services:
+    my-mysql:
+        image: test_mysql
+        environment:
+            - MYSQL_ALLOW_EMPTY_PASSWORD=true
